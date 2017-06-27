@@ -13,6 +13,12 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "     :help neobundle-examples
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'junegunn/seoul256.vim'
+NeoBundle 'thinca/vim-quickrun'
+if has("nvim")
+	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
+else
+	NeoBundle 'Shougo/unite.vim'    " support for Vim
+endif
 
 call neobundle#end()
 
