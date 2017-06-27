@@ -14,6 +14,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'junegunn/seoul256.vim'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'mbbill/undotree'
 NeoBundle 'vim-scripts/DirDiff.vim.git'
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
@@ -34,3 +35,4 @@ if !has('vim_starting')
 endif
 
 source ~/.vim/colorscheme/colorscheme.vim
+source ~/.vim/conf/undotree.vim

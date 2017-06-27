@@ -71,3 +71,8 @@ If you want to use the file in nvim, make softlink after installing nvim
         | n       | Close dialog                          |
         +---------+---------------------------------------+
         
+* Undotree (https://github.com/mbbill/undotree)
+
+		:UndoTreeGoggle
+		
+
