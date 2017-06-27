@@ -20,5 +20,11 @@ If you want to use the file in nvim, make softlink after installing nvim
 
 * seoul256 colorschme (https://github.com/junegunn/seoul256.vim)
 * vim-quickrun (https://github.com/thinca/vim-quickrun)
+
+	:QuickRun
+
 * Unite (https://github.com/Shougo/unite.vim)
 * Denite.nvim (https://github.com/Shougo/denite.nvim)
+* DirDiff (http://www.vim.org/scripts/script.php?script_id=102)
+
+	:DirDiff Dir_A Dir_B

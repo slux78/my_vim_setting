@@ -14,6 +14,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 NeoBundle 'junegunn/seoul256.vim'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'vim-scripts/DirDiff.vim.git'
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
 else
