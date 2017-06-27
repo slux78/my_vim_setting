@@ -36,3 +36,38 @@ If you want to use the file in nvim, make softlink after installing nvim
 * DirDiff (http://www.vim.org/scripts/script.php?script_id=102)
 
 		:DirDiff Dir_A Dir_B
+
+		Command in compare file list view
+		+---------+---------------------------------------+
+		| Enter   | Compare files under cursor            |
+		+---------+---------------------------------------+
+        | o       | Same to Enter                         |
+        +---------+---------------------------------------+
+        | s       | Synchronize the current diff          |
+        +---------+---------------------------------------+
+        | u       | Diff update: update diff window       |
+        +---------+---------------------------------------+
+        | x       | Set exclude pattern, separated by ',' |
+        +---------+---------------------------------------+
+        | i       | Set include pattern, separated by ',' |
+        +---------+---------------------------------------+
+        | q       | Quit DirDiff                          |
+        +---------+---------------------------------------+
+        
+        Command in file compare dialog
+        +---------+---------------------------------------+
+        | a       | Overwrite file in A to file in B      |
+        +---------+---------------------------------------+
+        | b       | Overwrite file in B to file in A      | 
+        +---------+---------------------------------------+
+        | l       | For the rest of items you've selected |
+        |         | overwrite files in A to files in B    |
+        +---------+---------------------------------------+
+        | w       | For the rest of items you've selected |
+        |.        | overwrite files in B to files in A.   |
+        +---------+---------------------------------------+
+        | s       | Skip this file and compare next file  |
+        +---------+---------------------------------------+
+        | n       | Close dialog                          |
+        +---------+---------------------------------------+
+        
