@@ -20,3 +20,5 @@ If you want to use the file in nvim, make softlink after installing nvim
 
 * seoul256 colorschme (https://github.com/junegunn/seoul256.vim)
 * vim-quickrun (https://github.com/thinca/vim-quickrun)
+* Unite (https://github.com/Shougo/unite.vim)
+* Denite.nvim (https://github.com/Shougo/denite.nvim)
