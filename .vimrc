@@ -12,6 +12,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Describe plugins to be installed
 "     :help neobundle-examples
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+NeoBundle 'junegunn/seoul256.vim'
 
 call neobundle#end()
 
@@ -24,3 +25,5 @@ if !has('vim_starting')
 	" setting for reading .vimrc again
 	call neobundle#call_hook('on_source')
 endif
+
+source ~/.vim/colorscheme/colorscheme.vim
