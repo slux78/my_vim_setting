@@ -75,4 +75,6 @@ If you want to use the file in nvim, make softlink after installing nvim
 
 		:UndoTreeGoggle
 		
+* fugitive (https://github.com/tpope/vim-fugitive)
+
 

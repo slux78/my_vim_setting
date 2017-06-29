@@ -16,6 +16,8 @@ NeoBundle 'junegunn/seoul256.vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'mbbill/undotree'
 NeoBundle 'vim-scripts/DirDiff.vim.git'
+NeoBundle 'tpope/vim-fugitive'
+
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
 else
