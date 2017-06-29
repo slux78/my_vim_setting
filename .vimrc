@@ -19,6 +19,7 @@ NeoBundle 'vim-scripts/DirDiff.vim.git'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'ervandew/supertab'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim

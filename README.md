@@ -82,7 +82,7 @@ If you want to use this setting in neovim, make softlink after installing neovim
 		
 * fugitive (https://github.com/tpope/vim-fugitive)
 
-		Simple commit way:
+	Simple commit way:
 
 		1. Edit files what you want
 		2. Open up the status window using ':Status'
@@ -93,10 +93,13 @@ If you want to use this setting in neovim, make softlink after installing neovim
 		7. All comments are added, save and close (':wq' or ':x')
 		8. If push all changes to Github, type ':Gpush'
 
-* Add airline, airline-theme and setting
+* airline, airline-theme (https://github.com/vim-airline/vim-airline, https://github.com/vim-airline/vim-airline-theme)
 
 	If status line is not correctly displayed (<== or ==> ) please check powerline font at https://github.com/powerline/fonts
 
 		let g:airline#extensions#tabline#enabled = 1
 		let g:airline_powerline_fonts = 1
 		let g:airline_theme='light'
+
+* Supertab (https://github.com/ervandew/supertab)
+
