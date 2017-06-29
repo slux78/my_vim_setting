@@ -47,8 +47,8 @@ if !has('vim_starting')
 endif
 
 source ~/.vim/colorscheme/colorscheme.vim
-source ~/.vim/conf/default_setting.vim
-source ~/.vim/conf/undotree.vim
-source ~/.vim/conf/airline.vim
-source ~/.vim/conf/ctrlp.vim
-source ~/.vim/conf/syntastic.vim
+
+" source all vim files in .vim/conf directory recusively
+for fpath in split(globpath('~/.vim/conf', '*.vim'), '\n')
+	exe 'source' fpath
+endfor
