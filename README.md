@@ -1,19 +1,24 @@
 ## my setting file (.vimrc)
 
-vim vimrc setting file and related files I'm using
+This page has vim vimrc setting information I'm using
 
-To use .vimrc in this page, clone neobundle first
+To install the files, first download all files:
+
+	mkdir -p ~/.vim
+	git glone https://github.com/slux78/my_vim_setting
+
+Now install plugin manager 'neobundle':
 
 	mkdir -p ~/.vim/bundle
 	cd ~/.vim/bundle
 	git clone https://github.com/Shougo/neobundle.vim.git
 
-Now make softlink for .vimrc to ~/.vimrc
+And then make softlink for .vimrc to ~/.vimrc:
 
 	cd ~/
 	ln -s .vim/.vimrc
 
-If you want to use the file in nvim, make softlink after installing nvim
+If you want to use this setting in neovim, make softlink after installing neovim:
 
 	mkdir -p ~/.config/nvim
 	cd ~/.config/nvim
