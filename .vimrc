@@ -17,6 +17,8 @@ NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'mbbill/undotree'
 NeoBundle 'vim-scripts/DirDiff.vim.git'
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
@@ -38,3 +40,4 @@ endif
 
 source ~/.vim/colorscheme/colorscheme.vim
 source ~/.vim/conf/undotree.vim
+source ~/.vim/conf/airline.vim

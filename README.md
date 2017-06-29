@@ -81,14 +81,22 @@ If you want to use this setting in neovim, make softlink after installing neovim
 		:UndoTreeGoggle
 		
 * fugitive (https://github.com/tpope/vim-fugitive)
-	Simple commit way:
-	1. Edit files what you want
-	2. Open up the status window using ':Status'
-	3. Move to line indicates which files are modified
-	4. Change Stage/Unstage using '-' key
-	5. Type 'cc' to commit the changes
-	6. When commit window is opened, describe comment from first line (there is no comment line with #)
-	7. All comments are added, save and close (':wq' or ':x')
-	8. If push all changes to Github, type ':Gpush'
 
+		Simple commit way:
 
+		1. Edit files what you want
+		2. Open up the status window using ':Status'
+		3. Move to line indicates which files are modified
+		4. Change Stage/Unstage using '-' key
+		5. Type 'cc' to commit the changes
+		6. When commit window is opened, describe comment from first line (there is no comment line with #)
+		7. All comments are added, save and close (':wq' or ':x')
+		8. If push all changes to Github, type ':Gpush'
+
+* Add airline, airline-theme and setting
+
+	If status line is not correctly displayed (<== or ==> ) please check powerline font at https://github.com/powerline/fonts
+
+		let g:airline#extensions#tabline#enabled = 1
+		let g:airline_powerline_fonts = 1
+		let g:airline_theme='light'
