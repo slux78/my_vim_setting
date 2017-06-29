@@ -103,3 +103,10 @@ If you want to use this setting in neovim, make softlink after installing neovim
 
 * Supertab (https://github.com/ervandew/supertab)
 
+* Snipmate and snippets
+
+	- Snipmate : https://github.com/garbas/vim-snipmate
+	- tlib     : https://github.com/tomtom/tlib_vim
+	- addon-mw-utils: https://github.com/MarcWeber/vim-addon-mw-utils
+	- snippets : https://github.com/honza/vim-snippets
+

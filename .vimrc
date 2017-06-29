@@ -20,6 +20,10 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'ervandew/supertab'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'   " should be installed for vim-snipmate
+NeoBundle 'tomtom/tlib_vim'                " should be installed for vim-snipmate
+NeoBundle 'garbas/vim-snipmate'
+NeoBundle 'honza/vim-snippets'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
