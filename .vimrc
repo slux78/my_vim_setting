@@ -26,6 +26,7 @@ NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'sgur/ctrlp-extensions.vim'      " ctrlp extension  for cmdline history, yank history, extension selector menu history
+NeoBundle 'vim-syntastic/syntastic'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
@@ -50,3 +51,4 @@ source ~/.vim/conf/default_setting.vim
 source ~/.vim/conf/undotree.vim
 source ~/.vim/conf/airline.vim
 source ~/.vim/conf/ctrlp.vim
+source ~/.vim/conf/syntastic.vim

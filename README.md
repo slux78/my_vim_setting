@@ -166,3 +166,4 @@ If you want to use this setting in neovim, make softlink after installing neovim
 			| <c-z>                | mark/unmark multiple files and <c-o> to open them      |
 			+----------------------+--------------------------------------------------------+
 
+* syntastic (https://github.com/vim-syntastic/syntastic)
