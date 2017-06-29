@@ -27,11 +27,15 @@ NeoBundle 'honza/vim-snippets'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'sgur/ctrlp-extensions.vim'      " ctrlp extension  for cmdline history, yank history, extension selector menu history
 NeoBundle 'vim-syntastic/syntastic'
+NeoBundle 'davidhalter/jedi'               " for python API auto completion
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
 	NeoBundle 'Shougo/neomru.vim'     " extension for denite --> Denite file_mru
 	NeoBundle 'Shougo/neoyank.vim'    " extension for denite --> Denite neoyank
+	NeoBundle 'Shougo/deoplete.nvim'  " new neo-complete for neovim
+	NeoBundle 'neovim/python-client'
+	NeoBundle 'zchee/deoplete-jedi'   " for python API auto completion
 else
 	NeoBundle 'Shougo/unite.vim'    " support for Vim
 endif

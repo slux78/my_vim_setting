@@ -18,11 +18,16 @@ And then make softlink for .vimrc to ~/.vimrc:
 	cd ~/
 	ln -s .vim/.vimrc
 
-If you want to use this setting in neovim, make softlink after installing neovim:
+If you want to use this setting in neovim, install neovim and then make softlink:
 
 	mkdir -p ~/.config/nvim
 	cd ~/.config/nvim
 	ln -s ~/.vim/.vimrc init.vim
+
+To communicate neovim and python based plugins, install neovim module using pip3:
+
+	pip3 install neovim
+	
 
 
 ## Plugins and how to use it
@@ -214,3 +219,15 @@ If you want to use this setting in neovim, make softlink after installing neovim
 			+----------------------+--------------------------------------------------------+
 
 * syntastic (https://github.com/vim-syntastic/syntastic)
+
+* Deoplete (https://github.com/Shougo/deoplete.nvim)
+
+* jedi (https://github.com/davidhalter/jedi)
+
+	- To communicate with Deoplete, some plugins and python modules should be installed
+	
+		1. python-client (https://github.com/neovim/python-client)
+		2. zchee/deoplete-jedi (https://github.com/zchee/deoplete-jedi)
+		3. python module: pip3 install jedi
+
+
