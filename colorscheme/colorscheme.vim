@@ -1,5 +1,6 @@
 " Unified color scheme (default: dark)
-colo seoul256
+"colo seoul256
+colo pablo
 
 " Light color scheme
 "colo seoul256-light

@@ -30,6 +30,8 @@ NeoBundle 'vim-syntastic/syntastic'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
+	NeoBundle 'Shougo/neomru.vim'     " extension for denite --> Denite file_mru
+	NeoBundle 'Shougo/neoyank.vim'    " extension for denite --> Denite neoyank
 else
 	NeoBundle 'Shougo/unite.vim'    " support for Vim
 endif

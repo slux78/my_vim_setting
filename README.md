@@ -38,6 +38,53 @@ If you want to use this setting in neovim, make softlink after installing neovim
 
 * Denite.nvim (https://github.com/Shougo/denite.nvim)
 
+	- neomru (https://github.com/Shougo/neomru.vim) : this is for :Denite file_mru
+
+	- neoyank (https://github.com/Shougo/neoyank.vim) : This is for :Deniten neo_yank
+	
+	- How to use
+	
+
+			* Denite command	
+			+--------------------+------------------------------------------+
+			| :Denite            | Normal command                           |
+			+--------------------+------------------------------------------+
+			| :DeniteBufferDir   | Execute :Denite command based on         |
+			|                    | currently opened buffer's directory.     |
+			+--------------------+------------------------------------------+
+			| :DeniteCursorWord  | Execute :Denite command based on         |
+			|                    | word under cursor position. It can       |
+			|                    | be replaced to simply grep word          |
+			+--------------------+------------------------------------------+
+			| :DeniteProjectDir  | Execute :Denite command based on         |
+			|                    | root directory of some porject directory |
+			+--------------------+------------------------------------------+
+
+			* Denite sub_command
+			+-----------------+------------------------------------------+
+			| buffer          | open buffer                              |
+			+-----------------+------------------------------------------+
+			| colorscheme     | change colorscheme                       |
+			+-----------------+------------------------------------------+
+			| file_rec        | open file                                |
+			+-----------------+------------------------------------------+
+			| filetype        | chane file type                          |
+			+--------------------+---------------------------------------+
+			| directory_rec   | change directory (buffer local)          |
+			+-----------------+------------------------------------------+
+			| command         | insert vim command in ex mode            |
+			+-----------------+------------------------------------------+
+			| grep            | move to the result line of grep          |
+			+-----------------+------------------------------------------+
+			| help            | jump to tag in vim document              |
+			+-----------------+------------------------------------------+
+			| file_mru        | open Most Recently Used file             |
+			+-----------------+------------------------------------------+
+			| neo_yank        | select entry of yank history and paste it|
+			+-----------------+------------------------------------------+
+
+
+
 * DirDiff (http://www.vim.org/scripts/script.php?script_id=102)
 
 		:DirDiff Dir_A Dir_B
