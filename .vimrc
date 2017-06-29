@@ -29,6 +29,7 @@ NeoBundle 'sgur/ctrlp-extensions.vim'      " ctrlp extension  for cmdline histor
 NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'davidhalter/jedi'               " for python API auto completion
 NeoBundle 'Shougo/neco-vim'                " for vim script auto completion using deoplete
+NeoBundle 'c9s/perlomni.vim'
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
@@ -38,7 +39,9 @@ if has("nvim")
 	NeoBundle 'neovim/python-client'
 	NeoBundle 'zchee/deoplete-jedi'   " for python API auto completion
 else
-	NeoBundle 'Shougo/unite.vim'    " support for Vim
+	NeoBundle 'Shougo/unite.vim'      " support for Vim
+	NeoBundle 'Shougo/neocomplete.vim' 
+	NeoBundle 'Shougo/neocomplcache.vim' " should be installed for neocomplete
 endif
 
 call neobundle#end()

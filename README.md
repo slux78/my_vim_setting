@@ -222,6 +222,8 @@ To communicate neovim and python based plugins, install neovim module using pip3
 
 * Deoplete (https://github.com/Shougo/deoplete.nvim)
 
+	- This is only for NeoVim not normal vim --> Check Neocomplete.vim
+
 * jedi (https://github.com/davidhalter/jedi)
 
 	- To communicate with Deoplete, some plugins and python modules should be installed
@@ -232,3 +234,13 @@ To communicate neovim and python based plugins, install neovim module using pip3
 
 * neco-vim (https://github.com/Shougo/neco-vim)
 
+* Neocomplete.vim (https://github.com/Shougo/neocomplete.vim)
+
+	- To use Neocomplete, vim should be compiled with supporting lua
+	
+	- In MacOSX, uninstall previously used vim and install vim like:
+	
+			brew install vim --with-lua
+			
+	- neocomplcache.vim also should be installed (https://github.com/Shougo/neocomplcache.vim)
+	
