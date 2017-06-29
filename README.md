@@ -230,4 +230,5 @@ To communicate neovim and python based plugins, install neovim module using pip3
 		2. zchee/deoplete-jedi (https://github.com/zchee/deoplete-jedi)
 		3. python module: pip3 install jedi
 
+* neco-vim (https://github.com/Shougo/neco-vim)
 

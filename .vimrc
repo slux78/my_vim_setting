@@ -28,6 +28,7 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'sgur/ctrlp-extensions.vim'      " ctrlp extension  for cmdline history, yank history, extension selector menu history
 NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'davidhalter/jedi'               " for python API auto completion
+NeoBundle 'Shougo/neco-vim'                " for vim script auto completion using deoplete
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
