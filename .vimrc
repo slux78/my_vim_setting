@@ -46,5 +46,6 @@ if !has('vim_starting')
 endif
 
 source ~/.vim/colorscheme/colorscheme.vim
+source ~/.vim/conf/default_setting.vim
 source ~/.vim/conf/undotree.vim
 source ~/.vim/conf/airline.vim
