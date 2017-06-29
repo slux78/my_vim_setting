@@ -110,3 +110,59 @@ If you want to use this setting in neovim, make softlink after installing neovim
 	- addon-mw-utils: https://github.com/MarcWeber/vim-addon-mw-utils
 	- snippets : https://github.com/honza/vim-snippets
 
+
+* CtrlP and extension
+
+	- CtrlP : https://github.com/ctrlpvim/ctrlp.vim
+	- extension : https://github.com/sgur/ctrlp-extensions.vim
+
+	- command
+	
+	
+			+------------------------------------------+------------------------------------+
+			|:CtrlP  or  :CtrlP [starting-directory]   |find file mode                      |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPBuffer                              |find buffer mode                    |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPMRU                                 |find MRU file mode                  |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPMixed                               |find files, buffer, and MRU files   |
+			|                                          | at the same time                   |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPCmdline                             |find commandline history            |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPMenu                                |listup CtrlP function menu          |
+			+------------------------------------------+------------------------------------+
+			|:CtrlPYankring                            |find yank history                   |
+			+------------------------------------------+------------------------------------+
+
+
+	- CtrlP window command
+	
+	
+			+----------------------+--------------------------------------------------------+
+			| <F5>                 | purge the cache for the current directory              |
+			+----------------------+--------------------------------------------------------+
+			| <c-f>, <c-b>         | cycle between modes                                    |
+			+----------------------+--------------------------------------------------------+
+			| <c-d>                | switch to filename only search mode                    |	
+			|                      |  instead of fullpath search                            |
+			+----------------------+--------------------------------------------------------+
+			| <c-r>                | switch to search mode using regex pattern              |
+			+----------------------+--------------------------------------------------------+
+			| <c-j>, <c-k>         | navigate search results                                |
+			+----------------------+--------------------------------------------------------+
+			| <c-t>                | open selected entry in new tab                         |
+			+----------------------+--------------------------------------------------------+
+			| <c-v>                | open selected entry in new virtical split              |
+			+----------------------+--------------------------------------------------------+
+			| <c-x>                | open selected entry in new horizontal split            |
+			+----------------------+--------------------------------------------------------+
+			| <c-n>, <c-p>         | navigate the next/previous string                      |
+			|                      |  in the prompt's history                               |
+			+----------------------+--------------------------------------------------------+
+			| <c-y>                | create a new file and its parent directories           |
+			+----------------------+--------------------------------------------------------+
+			| <c-z>                | mark/unmark multiple files and <c-o> to open them      |
+			+----------------------+--------------------------------------------------------+
+

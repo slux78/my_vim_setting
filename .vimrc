@@ -24,6 +24,8 @@ NeoBundle 'MarcWeber/vim-addon-mw-utils'   " should be installed for vim-snipmat
 NeoBundle 'tomtom/tlib_vim'                " should be installed for vim-snipmate
 NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'honza/vim-snippets'
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'sgur/ctrlp-extensions.vim'      " ctrlp extension  for cmdline history, yank history, extension selector menu history
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
