@@ -244,3 +244,5 @@ To communicate neovim and python based plugins, install neovim module using pip3
 			
 	- neocomplcache.vim also should be installed (https://github.com/Shougo/neocomplcache.vim)
 	
+* VimShell (https://github.com/Shougo/vimproc.vim)
+

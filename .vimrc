@@ -30,6 +30,16 @@ NeoBundle 'vim-syntastic/syntastic'
 NeoBundle 'davidhalter/jedi'               " for python API auto completion
 NeoBundle 'Shougo/neco-vim'                " for vim script auto completion using deoplete
 NeoBundle 'c9s/perlomni.vim'
+NeoBundle 'Shougo/vimshell.vim'            
+NeoBundle 'Shougo/vimproc.vim', {
+\ 'build' : {
+\     'windows' : 'tools\\update-dll-mingw',
+\     'cygwin' : 'make -f make_cygwin.mak',
+\     'mac' : 'make',
+\     'linux' : 'make',
+\     'unix' : 'gmake',
+\    },
+\ }
 
 if has("nvim")
 	NeoBundle 'Shougo/denite.nvim'    " support for NeoVim
