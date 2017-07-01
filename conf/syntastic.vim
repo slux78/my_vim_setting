@@ -1,4 +1,4 @@
-if exists("*GitBranchInfoString")
+if !empty(glob("~/.vim/bundle/syntastic/plugin/syntastic/checker.vim"))
 	set statusline+=%#warningmsg#
 	set statusline+=%{SyntasticStatuslineFlag()}
 	set statusline+=%*
