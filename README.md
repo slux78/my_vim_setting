@@ -5,7 +5,7 @@ This page has vim vimrc setting information I'm using
 To install the files, first download all files:
 
 	mkdir -p ~/.vim
-	git glone https://github.com/slux78/my_vim_setting
+	git clone https://github.com/slux78/my_vim_setting .
 
 Now install plugin manager 'neobundle':
 
