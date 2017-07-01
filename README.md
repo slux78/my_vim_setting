@@ -28,7 +28,17 @@ To communicate neovim and python based plugins, install neovim module using pip3
 
 	pip3 install neovim
 	
+After all plugin installs are done, you need to restart vim. 
 
+** (Only for Neovim) You need to update Remote Plugin information as guide message shows:
+
+	* Guide message displayed like:
+		Try the :UpdateRemotePlugins command and restart Neovim. See also :CheckHealth.
+		
+	* execute command:
+		:UpdateRemotePlugins
+		
+Finally, restart the vim once again. 
 
 ## Plugins and how to use it
 
